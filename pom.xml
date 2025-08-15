@@ -12,16 +12,6 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-</project>
-      <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.3.0</version>
-                <configuration>
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
@@ -30,3 +20,7 @@
                     </archive>
                 </configuration>
             </plugin>
+        </plugins>
+    </build>
+</project>
+      
